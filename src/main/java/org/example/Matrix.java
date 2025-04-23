@@ -1,3 +1,8 @@
+//------------------------------------------------------
+// Assignment (1)
+// Written by: (Rayan Ansari 2174698)
+// For SES350 Section (631) – Spring 2025
+//Purpose:  the purpose is to implement a Matrix class using a 2d array
 package org.example;
 public class Matrix {
     /** storage for ints */
