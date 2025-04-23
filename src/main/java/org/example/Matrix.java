@@ -33,7 +33,7 @@ public class Matrix {
     }
 
 
-    public void setData(int[][] newData) {
+        public void setData(int[][] newData) {
         /** Could add checks here if needed (e.g., dimensions match).*/
         this.data = newData;
     }

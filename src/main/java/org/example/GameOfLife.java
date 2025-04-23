@@ -34,7 +34,7 @@ public class GameOfLife extends Matrix {
         setData(next);
     }
     /**sees whether the row or column is inside the board*/
-    private boolean inside(int r,int c,int R,int C){return r>=0&&c>=0&&r<R&&c<C;}
+        private boolean inside(int r,int c,int R,int C){return r>=0&&c>=0&&r<R&&c<C;}
     /**implemenets the glider and blinker as well as uses a for loop to print every game state.*/
     public static void main(String[] args) throws InterruptedException {
         System.out.println("The game of life game\n");

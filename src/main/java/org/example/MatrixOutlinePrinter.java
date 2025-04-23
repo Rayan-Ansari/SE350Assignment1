@@ -17,9 +17,8 @@ public class MatrixOutlinePrinter implements MatrixPrinter {
         return sb.toString();
     }
 
-    /** creates the edges with plueses and minuses*/
-    private String edges(int cols) { return "+" + "-".repeat(cols) + "+"; }
-    protected String printRow(int row, Matrix m) {
+    /** creates the edges with plueses and minuses*/private String edges(int cols) { return "+" + "-".repeat(cols) + "+"; }
+        protected String printRow(int row, Matrix m) {
         return " ".repeat(m.colCount());
     }
 }
