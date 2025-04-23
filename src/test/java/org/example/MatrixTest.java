@@ -1,4 +1,10 @@
-import org.example.Matrix;
+//------------------------------------------------------
+// Assignment (1)
+// Written by: (Rayan Ansari 2174698)
+// For SES350 Section (631) – Spring 2025
+//purpose is to check and see whether the matrix reports illegal arguaments and if it returms the expected rows and columns.
+package org.example;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
