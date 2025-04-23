@@ -6,7 +6,7 @@
 package org.example;
 public class BoolMatrixPrinter extends MatrixOutlinePrinter {
 
-    //prints a matrix where the value is either 0 or 1.
+    /**prints a matrix where the value is either 0 or 1.*/
     @Override protected String printRow(int row, Matrix m) {
         StringBuilder sb = new StringBuilder();
         for (int v : m.getData()[row]) {

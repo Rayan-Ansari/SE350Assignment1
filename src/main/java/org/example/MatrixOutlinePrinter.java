@@ -6,7 +6,7 @@
 
 package org.example;
 public class MatrixOutlinePrinter implements MatrixPrinter {
-//gives a string the shows the outer edges fo the matrix
+/**gives a string the shows the outer edges fo the matrix*/
     @Override public String print(Matrix m) {
         StringBuilder sb = new StringBuilder();
         int r = m.rowCount(), c = m.colCount();
@@ -17,9 +17,8 @@ public class MatrixOutlinePrinter implements MatrixPrinter {
         return sb.toString();
     }
 
-    // creates the edges with plueses and minuses
+    /** creates the edges with plueses and minuses*/
     private String edges(int cols) { return "+" + "-".repeat(cols) + "+"; }
-
     protected String printRow(int row, Matrix m) {
         return " ".repeat(m.colCount());
     }
